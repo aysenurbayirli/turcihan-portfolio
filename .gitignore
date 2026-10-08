@@ -1,0 +1,37 @@
+# İşletim sistemi
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Editör
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code yerel ayarları (launch.json depoda kalsın)
+.claude/settings.local.json
+
+# Orijinal, tam çözünürlüklü kaynaklar.
+# Siteye giren küçültülmüş kopyalar site/img ve site/video içinde; orijinalleri
+# depoya koymayın, bu klasörlere bırakın.
+orijinaller/
+ham/
+*.RAF
+*.CR2
+*.NEF
+*.ARW
+*.DNG
+*.psd
+*.ai
+*.zip
+
+# Kameradan çıkan ham video (web sürümleri site/video içinde)
+DSCF*.mp4
+DSC_*.mov
+
+# Bağımlılık / yapı çıktısı (şu an kullanılmıyor)
+node_modules/
+.env
+.env.*

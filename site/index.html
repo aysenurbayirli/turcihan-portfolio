@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="tr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gastronomi Fotoğrafçısı | Menü ve Mekan Çekimleri · Turcihan Yıldırım</title>
+<meta name="description" content="Restoran, kafe ve oteller için gastronomi fotoğrafçısı. Menü çekimi, imza tabak, mekan ve atmosfer fotoğrafları, etkinlik ve sosyal medya içeriği. Restoran fotoğrafçısı Turcihan Yıldırım.">
+<meta name="theme-color" content="#A3150E">
+<link rel="canonical" href="https://[SITE_ADRESI]/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="Turcihan Yıldırım">
+<meta property="og:url" content="https://[SITE_ADRESI]/">
+<meta property="og:title" content="Gastronomi Fotoğrafçısı | Menü ve Mekan Çekimleri">
+<meta property="og:description" content="Restoran, kafe ve oteller için menü çekimi, imza tabak, mekan atmosferi ve etkinlik fotoğrafçılığı.">
+<meta property="og:image" content="https://[SITE_ADRESI]/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Beyaz tabakta imza balık tabağı">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Familjen+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: Canva kimliği webe taşındı — kırmızı/krem bloklar, dev kondanse başlıklar, her bölümün üstünde "2026 · creative · portfolio · photography" etiket şeridi */
+:root{
+  --red:#A3150E;
+  --red-deep:#7E0F0A;
+  --cream:#FFF9E8;
+  --cream-dim:#F3EAD2;
+  --ink:#2A0907;
+  --line:rgba(163,21,14,.28);
+  --line-on-red:rgba(255,249,232,.32);
+  --f-display:"Anton","Oswald","Impact","Arial Narrow",sans-serif;
+  --f-body:"Familjen Grotesk","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"DM Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --gut:clamp(16px,4vw,48px);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+section[id],footer[id]{scroll-margin-top:calc(var(--bas,92px) + 12px)}
+body{margin:0;background:var(--cream);color:var(--red);font-family:var(--f-body);font-size:17px;line-height:1.55}
+img{display:block;max-width:100%}
+picture{display:contents}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.on-red :focus-visible{outline-color:var(--cream)}
+
+.wrap{padding-inline:var(--gut)}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;padding-block:14px;border-bottom:1px solid var(--line)}
+.strip span:nth-child(n+2){text-align:center}
+.strip span:last-child{text-align:right}
+.on-red{background:var(--red);color:var(--cream)}
+.on-red .strip{border-color:var(--line-on-red)}
+
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-transform:uppercase;line-height:.96;letter-spacing:.005em;margin:0;text-wrap:balance}
+h2{font-size:clamp(64px,13vw,190px)}
+h2.orta{font-size:clamp(38px,6.2vw,88px)}
+h3{font-size:clamp(22px,2.2vw,28px);line-height:1}
+p{margin:0}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+
+/* nav */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--red);color:var(--cream)}
+header.top nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:12px;flex-wrap:wrap}
+.brand{font-family:var(--f-display);font-size:24px;text-decoration:none;text-transform:uppercase;letter-spacing:.02em}
+.links{display:flex;gap:clamp(12px,2.5vw,32px);font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;flex-wrap:wrap}
+.links a{text-decoration:none;padding-block:4px;border-bottom:1px solid transparent}
+.links a:hover{border-color:currentColor}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.15fr 1fr;min-height:0}
+.hero-text{display:flex;flex-direction:column;justify-content:flex-end;gap:28px;padding:clamp(40px,7vw,96px) var(--gut) clamp(32px,5vw,64px);position:relative;z-index:2;min-width:0}
+.hero h1{font-size:clamp(46px,7.6vw,112px)}
+.hero .unvan{font-family:var(--f-mono);font-size:clamp(13px,1.3vw,16px);letter-spacing:.12em;text-transform:uppercase;opacity:.9}
+.hero .lede{max-width:38ch;font-size:clamp(16px,1.4vw,19px)}
+/* ana eylem dugmeleri: sitedeki hap kaligi, buyutulmus hali */
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.cta a{font-family:var(--f-mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:14px 22px;border-radius:999px;border:1px solid var(--cream);min-height:44px;display:inline-flex;align-items:center}
+.cta .birincil{background:var(--cream);color:var(--red)}
+.cta .birincil:hover{background:transparent;color:var(--cream)}
+.cta .ikincil{background:transparent;color:var(--cream)}
+.cta .ikincil:hover{background:var(--cream);color:var(--red)}
+.hero-img{position:relative;min-height:420px;background:var(--cream-dim)}
+.hero-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line-on-red);padding:6px 12px;border-radius:999px}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(24px,5vw,72px);padding-block:clamp(48px,8vw,112px);align-items:end}
+.about figure{margin:0;aspect-ratio:4/5;overflow:hidden;max-width:100%}
+.about figure img{width:100%;height:100%;object-fit:cover}
+.about .body{display:flex;flex-direction:column;gap:28px;min-width:0}
+.about h2{font-size:clamp(40px,6.6vw,96px)}
+.about p.big{font-size:clamp(19px,1.8vw,24px);line-height:1.45;max-width:38ch;color:var(--ink)}
+.about p.big strong{color:var(--red);font-weight:600}
+
+/* experience */
+.exp{padding-block:clamp(48px,7vw,96px);border-top:1px solid var(--line)}
+.exp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,40px);margin-top:clamp(32px,5vw,56px)}
+.role{border-left:2px solid var(--red);padding-left:20px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.role .when{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em}
+.role ul{margin:0;padding-left:18px;color:var(--ink);display:grid;gap:8px;font-size:16px}
+.role p{color:var(--ink);font-size:16px}
+
+/* work */
+.work{padding-block:clamp(48px,7vw,96px)}
+.work-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(28px,4vw,48px)}
+.work-head p{max-width:36ch;font-size:16px}
+.gallery{columns:2;column-gap:12px;transition:opacity .25s ease}
+.gallery.gecis{opacity:0}
+@media (min-width:700px){.gallery{columns:3;column-gap:14px}.gallery button{margin-bottom:14px}}
+/* suzgec haplari: KOPYALA dugmeleriyle ayni kalip */
+.suzgec{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:clamp(24px,4vw,40px)}
+.suz.secili{background:var(--cream);color:var(--red)}
+.suz .adet{opacity:.65;margin-left:7px;font-size:10px}
+.daha-sar{display:flex;justify-content:center;margin-top:clamp(20px,3vw,32px)}
+.dahafazla{font-size:13px;padding:14px 24px;min-height:46px}
+@keyframes belir{from{opacity:0}to{opacity:1}}
+.gallery button.beliren{animation:belir .45s ease both}
+@media (prefers-reduced-motion:reduce){.gallery button.beliren{animation:none}}
+.rozet{position:absolute;top:10px;right:10px;font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;background:var(--cream);color:var(--red);padding:4px 8px;border-radius:999px}
+.gallery button{all:unset;display:block;cursor:zoom-in;margin-bottom:12px;break-inside:avoid;position:relative;overflow:hidden;width:100%}
+.gallery img{width:100%;height:auto;transition:transform .5s ease}
+.gallery button:hover img{transform:scale(1.03)}
+.gallery button:focus-visible{outline:3px solid var(--cream);outline-offset:3px}
+.gallery figcaption{position:absolute;left:10px;bottom:10px;font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:var(--cream);color:var(--red);padding:4px 8px;opacity:0;transform:translateY(6px);transition:.25s}
+.gallery button:hover figcaption,.gallery button:focus-visible figcaption{opacity:1;transform:none}
+
+/* services */
+.services{padding-block:clamp(48px,7vw,96px)}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,36px);margin-top:clamp(32px,5vw,56px)}
+.svc{display:flex;flex-direction:column;gap:16px;min-width:0}
+.svc .ph{aspect-ratio:4/5;overflow:hidden;max-width:100%}
+.svc .ph img{width:100%;height:100%;object-fit:cover}
+.svc p{color:var(--ink);font-size:16px;max-width:40ch}
+.svc .no{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em}
+/* Karta gelince fotograf yavasca yakinlasir; cerceve ayni boyutta kalir (.ph overflow:hidden). */
+@media (hover:hover){
+  .svc .ph img{transition:transform .6s ease-out;will-change:transform}
+  .svc:hover .ph img,.svc:focus-within .ph img{transform:scale(1.06)}
+}
+@media (prefers-reduced-motion:reduce){
+  .svc .ph img{transition:none}
+  .svc:hover .ph img,.svc:focus-within .ph img{transform:none}
+}
+
+/* contact */
+.contact{display:grid;grid-template-columns:1fr 1.3fr}
+.contact .ph{position:relative;min-height:380px}
+.contact .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.contact .body{padding:clamp(40px,6vw,88px) var(--gut);display:flex;flex-direction:column;gap:32px;justify-content:center;min-width:0}
+.contact h2{font-size:clamp(64px,11vw,170px)}
+.rows{display:grid;gap:0;border-top:1px solid var(--line-on-red)}
+.row{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:16px;border-bottom:1px solid var(--line-on-red);flex-wrap:wrap}
+.row .k{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.8}
+.row .v{font-size:clamp(18px,2vw,24px);user-select:all;overflow-wrap:anywhere;min-width:0}
+.row .v a{text-decoration:none;border-bottom:1px solid var(--line-on-red)}
+.copy,.profil,.suz,.dahafazla{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;background:transparent;color:var(--cream);border:1px solid var(--line-on-red);padding:6px 12px;border-radius:999px;cursor:pointer;line-height:1.3}
+.copy:hover,.profil:hover,.suz:hover,.dahafazla:hover{background:var(--cream);color:var(--red)}
+.profil{text-decoration:none;display:inline-block;white-space:nowrap}
+.right{display:flex;align-items:center;gap:14px;flex-wrap:wrap;min-width:0;margin-left:auto}
+
+/* footer */
+footer{padding-block:clamp(48px,7vw,96px) 32px}
+.thanks{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end}
+.thanks h2{font-size:clamp(56px,10.5vw,150px)}
+.thanks figure{margin:0;width:clamp(140px,22vw,300px);aspect-ratio:3/4;overflow:hidden;max-width:100%}
+.thanks figure img{width:100%;height:100%;object-fit:cover}
+.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:40px;font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;opacity:.85}
+.foot a{text-decoration:none;border-bottom:1px solid var(--line)}
+.foot a:hover{border-bottom-color:currentColor}
+
+/* video bantlari */
+.band{position:relative;display:grid;place-items:center;overflow:hidden;background:var(--ink);min-height:clamp(300px,48vw,540px)}
+.band video,.band .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.band::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(42,9,7,.5),rgba(42,9,7,.2) 45%,rgba(42,9,7,.65))}
+.band-in{position:relative;z-index:2;display:grid;gap:16px;justify-items:center;text-align:center;color:var(--cream);padding:clamp(56px,9vw,112px) var(--gut);max-width:62ch}
+.band h2{font-size:clamp(46px,8.5vw,128px);color:var(--cream)}
+.band p{font-size:clamp(16px,1.5vw,19px);line-height:1.5}
+.vbtn{position:absolute;z-index:3;right:12px;bottom:12px;font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;background:var(--cream);color:var(--red);border:0;padding:8px 14px;border-radius:999px;cursor:pointer}
+.vbtn:hover{background:var(--red);color:var(--cream);box-shadow:inset 0 0 0 1px var(--cream)}
+
+/* dikey video bolumu */
+.reel{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:center;padding-block:clamp(48px,8vw,112px)}
+.reel .body{display:flex;flex-direction:column;gap:20px;min-width:0}
+.reel .body p{color:var(--ink);font-size:clamp(16px,1.5vw,19px);max-width:40ch}
+.reel .klipler{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start;width:100%;max-width:calc(90vh + 16px);justify-self:center}
+.reel .klip{margin:0;display:flex;flex-direction:column;gap:10px;min-width:0}
+.reel .cerceve{position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;background:var(--cream-dim)}
+.reel .cerceve video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.reel .vbtn{font-size:10px;padding:8px 12px;right:8px;bottom:8px;background:rgba(255,249,232,.9)}
+.reel .cap{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+
+/* galeri */
+
+/* surec: numarali adimlar */
+.surec{padding-block:clamp(48px,7vw,96px);border-top:1px solid var(--line)}
+.adimlar{list-style:none;margin:clamp(28px,4vw,48px) 0 0;padding:0;display:grid;gap:clamp(16px,2.4vw,28px);
+  grid-template-columns:repeat(5,1fr);counter-reset:adim}
+.adim{display:flex;flex-direction:column;gap:10px;min-width:0;border-top:2px solid var(--red);padding-top:14px}
+.adim .no{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;color:var(--red)}
+.adim h3{font-size:clamp(17px,1.5vw,20px);line-height:1.1}
+.adim p{color:var(--ink);font-size:15px}
+
+/* referanslar */
+.referans{padding-block:clamp(48px,7vw,96px);border-top:1px solid var(--line)}
+/* etiket, buyuk basligin I noktasina degmesin */
+.referans .eyebrow{display:block;margin-bottom:clamp(10px,1.4vw,16px)}
+.mekan-serit{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin:clamp(20px,3vw,32px) 0 clamp(12px,2.4vw,28px);
+  font-family:var(--f-mono);font-size:clamp(13px,1.4vw,17px);letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
+.mekan-serit span{display:inline-flex;align-items:baseline;gap:16px}
+.mekan-serit span:not(:last-child)::after{content:"\00b7";opacity:.45}
+/* baglantili mekanlar: duran halde duz yazi gibi; uzerine gelince alt cizgi ve ok */
+.mekan-serit a{color:inherit;text-decoration:none;position:relative}
+.mekan-serit a::after{content:"\2197";position:absolute;left:100%;margin-left:4px;opacity:0;transition:opacity .2s ease;pointer-events:none}
+.mekan-serit a:hover{text-decoration:underline;text-underline-offset:4px}
+.mekan-serit a:hover::after,.mekan-serit a:focus-visible::after{opacity:1}
+.yorumlar{display:grid;grid-template-columns:1fr 1fr;gap:clamp(16px,2.6vw,32px);margin-top:clamp(28px,4vw,48px)}
+.yorum{margin:0;border:1px solid var(--line);padding:clamp(20px,2.6vw,32px);display:flex;flex-direction:column;gap:16px}
+.yorum p{font-size:clamp(16px,1.5vw,19px);line-height:1.5;color:var(--ink)}
+.yorum .kim{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;display:grid;gap:4px}
+.yorum .kim b{font-weight:500}
+
+/* talep formu */
+.talep{display:grid;gap:14px;margin-top:clamp(28px,4vw,40px)}
+.talep .ikili{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.talep label{display:grid;gap:6px;font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;min-width:0}
+.talep input,.talep select,.talep textarea{font-family:var(--f-body);font-size:16px;color:var(--cream);
+  background:transparent;border:1px solid var(--line-on-red);border-radius:0;padding:12px;min-height:46px;width:100%}
+.talep textarea{min-height:96px;resize:vertical}
+.talep select option{color:var(--ink);background:var(--cream)}
+.talep input:focus-visible,.talep select:focus-visible,.talep textarea:focus-visible{outline:2px solid var(--cream);outline-offset:1px}
+.talep input::placeholder,.talep textarea::placeholder{color:var(--cream);opacity:.5}
+.talep .gonder{justify-self:start;font-family:var(--f-mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;
+  background:var(--cream);color:var(--red);border:1px solid var(--cream);padding:14px 24px;border-radius:999px;min-height:46px;cursor:pointer}
+.talep .gonder:hover{background:transparent;color:var(--cream)}
+.talep .not{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;opacity:.75}
+
+/* form gonderim sonucu */
+.talep-sonuc{margin-top:clamp(28px,4vw,40px);display:flex;flex-direction:column;gap:14px;align-items:flex-start;
+  border:1px solid var(--line-on-red);padding:clamp(18px,2.4vw,26px);font-size:clamp(16px,1.5vw,19px);line-height:1.45}
+.talep-sonuc.olumlu{background:var(--cream);color:var(--red);border-color:var(--cream)}
+.talep-sonuc .wa-ic{font-family:var(--f-mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;
+  text-decoration:none;background:var(--cream);color:var(--red);border:1px solid var(--cream);
+  padding:13px 20px;border-radius:999px;min-height:46px;display:inline-flex;align-items:center}
+.talep-sonuc .wa-ic:hover{background:transparent;color:var(--cream)}
+.gonder[disabled]{opacity:.6;cursor:default}
+
+/* sabit WhatsApp dugmesi */
+.wa{position:fixed;z-index:30;right:clamp(14px,2vw,24px);bottom:calc(clamp(14px,2vw,24px) + env(safe-area-inset-bottom,0px));
+  font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;
+  background:var(--cream);color:var(--red);border:1px solid var(--red);padding:14px 20px;border-radius:999px;
+  min-height:48px;display:inline-flex;align-items:center;box-shadow:0 6px 20px rgba(42,9,7,.25)}
+.wa:hover{background:var(--red);color:var(--cream)}
+
+/* buyutecte mekan adi */
+.lb .cap{display:flex;flex-direction:column;gap:5px;align-items:center}
+.lb .mekan{font-size:13px;letter-spacing:.14em}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:50;background:rgba(42,9,7,.94);display:flex;align-items:center;justify-content:center;padding:calc(56px + env(safe-area-inset-top,0px)) 16px calc(56px + env(safe-area-inset-bottom,0px))}
+.lb img,.lb video{max-height:100%;max-width:100%;object-fit:contain}
+.lb button{position:absolute;background:var(--cream);color:var(--red);border:0;font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:10px 14px;cursor:pointer}
+.lb .x{top:calc(12px + env(safe-area-inset-top,0px));right:12px}
+.lb .prev{left:12px;top:50%;transform:translateY(-50%)}
+.lb .next{right:12px;top:50%;transform:translateY(-50%)}
+.lb .cap{position:absolute;bottom:calc(16px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;color:var(--cream);font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+
+@media (max-width:860px){
+  .hero,.about,.contact{grid-template-columns:1fr}
+  .hero h1{margin-right:0}
+  .hero-img{min-height:0;aspect-ratio:4/5;order:-1}
+  .exp-grid,.svc-grid{grid-template-columns:1fr}
+  .adimlar{grid-template-columns:1fr}
+  .yorumlar{grid-template-columns:1fr}
+  .talep .ikili{grid-template-columns:1fr}
+  .wa{padding:12px 16px;font-size:11px}
+  .svc .ph{aspect-ratio:16/10}
+  .contact .ph{min-height:0;aspect-ratio:4/3}
+  .thanks{grid-template-columns:1fr}
+  .reel{grid-template-columns:1fr}
+  .reel .cap{font-size:11px}
+  .strip span:nth-child(2),.strip span:nth-child(3){visibility:hidden}
+}
+@media (max-width:520px){ .links{gap:9px;font-size:10px} .brand{font-size:20px} }
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<header class="top">
+  <nav class="wrap" aria-label="Ana menü">
+    <a class="brand" href="#top">Turcihan</a>
+    <div class="links">
+      <a href="#hakkimda">Hakkımda</a>
+      <a href="#isler">İşler</a>
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#video">Video</a>
+      <a href="#iletisim">İletişim</a>
+    </div>
+  </nav>
+</header>
+
+<section class="on-red" id="top">
+  <div class="wrap"><div class="strip"><span>2026</span><span>creative</span><span>portfolio</span><span>photography</span></div></div>
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Turcihan<br>Yıldırım</h1>
+      <p class="unvan">Gastronomi &amp; Mekan Fotoğrafçısı</p>
+      <p class="lede">Restoranların imza tabaklarını ve mekan atmosferini doğru anda yakalıyorum. Çekim, kurgu ve renk düzenlemesi tek elden ilerliyor.</p>
+      <div class="cta">
+        <a class="birincil" href="#iletisim">Çekim Talebi</a>
+        <a class="ikincil" href="#isler">İşleri Gör</a>
+      </div>
+    </div>
+    <div class="hero-img"><picture><source srcset="img/portre.webp" type="image/webp"><img src="img/portre.jpg" alt="Elinde fotoğraf makinesiyle Turcihan" fetchpriority="high"></picture></div>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="band-h">
+  <video id="v-su-bant" class="vid" data-src="video/su-genis.mp4" poster="video/su-genis-poster.jpg"
+         autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+  <div class="band-in">
+    <span class="eyebrow">Video</span>
+    <h2 id="band-h">Hareketli içerik</h2>
+    <p>Fotoğrafın yanında, sosyal medya için kısa dikey videolar da çekiyorum. Çekim, kurgu ve renk düzenlemesi tek elden ilerliyor.</p>
+  </div>
+  <button class="vbtn" data-for="v-su-bant" type="button">Durdur</button>
+</section>
+
+<section class="wrap" id="hakkimda">
+  <div class="about">
+    <figure><picture><source srcset="img/hakkimda.webp" type="image/webp"><img src="img/hakkimda.jpg" alt="Turcihan, Suimaki restoranı önünde" loading="lazy"></picture></figure>
+    <div class="body">
+      <span class="eyebrow">Hakkımda</span>
+      <h2>Hakkımda</h2>
+      <p class="big">Merhaba, ben <strong>Turcihan</strong>. Gastronomi, mekan ve özel etkinlik (nişan, tiyatro) fotoğrafçısıyım. Sahnede ve özel günlerde edindiğim <strong>doğru anı yakalama</strong> tecrübesini bugün restoranların imza tabaklarını ve mekan atmosferlerini fotoğraflarken kullanıyorum.</p>
+      <p class="big">Markanızın görsel diline en uygun renk ve kurgu sürecini tek elden yürüterek işletmelere yüksek kaliteli prodüksiyon çözümleri sunuyorum.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap exp" aria-labelledby="exp-h">
+  <span class="eyebrow">2025 – 2026</span>
+  <h2 id="exp-h">Deneyim</h2>
+  <div class="exp-grid">
+    <article class="role">
+      <span class="when">2026 — bugün</span>
+      <h3>Freelance fotoğrafçı</h3>
+      <p>Geçmiş ajans ve asistanlık tecrübelerimi kendi markam altında birleştirerek restoranlar ve markalar için bağımsız gastronomi, menü ve etkinlik çekimleri gerçekleştiriyorum.</p>
+    </article>
+    <article class="role">
+      <span class="when">2025 — 2026</span>
+      <h3>Fotoğraf asistanı</h3>
+      <ul>
+        <li>Stüdyo ve dış mekan çekimlerinde profesyonel ışık ve kamera ekipmanlarının kurulumunda aktif rol aldım.</li>
+        <li>Çekim sonrası süreçlerde, özellikle Lightroom ile color grading, rötuş ve kurgu aşamalarında pratik tecrübe kazandım.</li>
+        <li>Müşteri beklentilerini anlama ve profesyonel iletişim konularında deneyim edindim.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <span class="when">2025 — 2026</span>
+      <h3>Sosyal medya yönetimi</h3>
+      <ul>
+        <li>Farklı proje ve markalarla çalışarak görsel içerik ihtiyaçlarını analiz ettim.</li>
+        <li>Çekim organizasyonlarını planlayarak sosyal medyaya uygun içeriklerin üretim sürecini yönettim.</li>
+        <li>Marka kimliğini yansıtan özgün görsel konseptler geliştirdim.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="on-red" id="isler">
+  <div class="wrap"><div class="strip"><span>2026</span><span>creative</span><span>portfolio</span><span>photography</span></div></div>
+  <div class="wrap work">
+    <div class="work-head">
+      <h2>İşler</h2>
+      <p>Restoran, kafe ve marka çekimlerinden seçkiler. Büyük görmek için bir fotoğrafa dokunun.</p>
+    </div>
+    <div class="suzgec" id="suzgec" role="group" aria-label="Kategori süzgeci"></div>
+    <div class="gallery" id="gallery"></div>
+    <div class="daha-sar"><button class="dahafazla" id="daha-fazla" type="button" hidden></button></div>
+  </div>
+</section>
+
+<section class="wrap services" id="hizmetler">
+  <span class="eyebrow">Hizmetler</span>
+  <h2>Hizmetler</h2>
+  <div class="svc-grid">
+    <article class="svc">
+      <div class="ph"><picture><source srcset="img/menu-tabak.webp" type="image/webp"><img src="img/menu-tabak.jpg" alt="Mavi duvar önünde tabureye konmuş tabak" loading="lazy"></picture></div>
+      <span class="no">Menü · QR · basılı</span>
+      <h3>Menü &amp; tabak çekimleri</h3>
+      <p>Restoran ve kafelerin dijital ve basılı menüleri (QR menü vb.) için yemeğin renklerini ve formunu en net, iştah açıcı şekilde yansıtan yüksek çözünürlüklü çekimler.</p>
+    </article>
+    <article class="svc">
+      <div class="ph"><picture><source srcset="img/mekan-gun-batimi.webp" type="image/webp"><img src="img/mekan-gun-batimi.jpg" alt="Gün batımında deniz kenarındaki mekan terası" loading="lazy"></picture></div>
+      <span class="no">Marka · atmosfer</span>
+      <h3>Konsept &amp; mekan çekimleri</h3>
+      <p>Görsel kimliğini güçlendirmek isteyen işletmeler için. Doğru ışık, stil ve kompozisyonla mekanın atmosferini ve imza lezzetlerini öne çıkaran kurgulu kareler.</p>
+    </article>
+    <article class="svc">
+      <div class="ph"><picture><source srcset="img/etkinlik.webp" type="image/webp"><img src="img/etkinlik.jpg" alt="Etkinlikte yaka kartı takmış bir katılımcı" loading="lazy"></picture></div>
+      <span class="no">Nişan · tiyatro · lansman</span>
+      <h3>Etkinlik &amp; dinamik içerik</h3>
+      <p>İşletmenizin özel ve anlık etkinlikleri için, anı kaçırmadan yakalanmış fotoğraf kareleri.</p>
+    </article>
+  </div>
+</section>
+
+<section class="wrap surec" id="surec" aria-labelledby="surec-h">
+  <span class="eyebrow">Süreç</span>
+  <h2 id="surec-h" class="orta">Nasıl Çalışıyoruz</h2>
+  <ol class="adimlar">
+    <li class="adim"><span class="no">01</span><h3>Ön görüşme</h3>
+      <p>İhtiyacınızı, mekanı ve görsellerin nerede kullanılacağını (menü, sosyal medya, web) konuşuyoruz.</p></li>
+    <li class="adim"><span class="no">02</span><h3>Konsept &amp; plan</h3>
+      <p>Çekim listesi, stil ve takvim çıkarılıyor. Gerekirse örnek kareler üzerinden yön birlikte belirleniyor.</p></li>
+    <li class="adim"><span class="no">03</span><h3>Çekim</h3>
+      <p>Mekanda ya da stüdyoda, kendi ışık ve kamera ekipmanımla gerçekleşiyor.</p></li>
+    <li class="adim"><span class="no">04</span><h3>Renk düzenleme</h3>
+      <p>Seçilen kareler Lightroom ile markanın görsel diline uygun renk düzenlemesinden geçiyor.</p></li>
+    <li class="adim"><span class="no">05</span><h3>Teslim</h3>
+      <p>Yüksek çözünürlüklü ve sosyal medya ölçülerinde, çekimden sonra <b>5 iş günü</b> içinde.</p></li>
+  </ol>
+</section>
+
+<section class="wrap" id="video" aria-labelledby="reel-h">
+  <div class="reel">
+    <div class="body">
+      <span class="eyebrow">Dikey video</span>
+      <h2 id="reel-h" lang="en" style="font-size:clamp(48px,8vw,120px)">Reels</h2>
+      <p>Instagram ve TikTok için 9:16 formatında kısa videolar. Mekanın ışığını ve ürünü öne çıkaran, menü ve konsept çekimlerini tamamlayan içerikler.</p>
+    </div>
+    <div class="klipler">
+      <figure class="klip">
+        <div class="cerceve">
+          <video id="v-kokteyl" class="vid" data-src="video/kokteyl-dikey.mp4" poster="video/kokteyl-dikey-poster.jpg"
+                 autoplay muted loop playsinline preload="none" aria-label="Kumsalda, dalga kenarında iki kokteyl"></video>
+          <button class="vbtn" data-for="v-kokteyl" type="button">Durdur</button>
+        </div>
+        <figcaption class="cap">Sahilde kokteyl sunumu · 9:16</figcaption>
+      </figure>
+      <figure class="klip">
+        <div class="cerceve">
+          <video id="v-su" class="vid" data-src="video/su-dikey.mp4" poster="video/su-dikey-poster.jpg"
+                 autoplay muted loop playsinline preload="none" aria-label="Gün batarken denizde parlayan ışık"></video>
+          <button class="vbtn" data-for="v-su" type="button">Durdur</button>
+        </div>
+        <figcaption class="cap">Denizde gün batımı ışığı · 9:16</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="wrap referans" id="referanslar" aria-labelledby="ref-h">
+  <span class="eyebrow">Referanslar</span>
+  <h2 id="ref-h" class="orta">Birlikte Çalıştığı Mekanlar</h2>
+  <div class="mekan-serit">
+    <span><a href="https://www.ahalialacati.com/" target="_blank" rel="noopener noreferrer">Ahali Alaçatı</a></span><span><a href="https://www.verandaalacati.com/" target="_blank" rel="noopener noreferrer">Veranda Alaçatı</a></span><span>Suimaki</span>
+    <span><a href="https://www.alacatibeachresort.com/" target="_blank" rel="noopener noreferrer">Alaçatı Beach Resort</a></span><span>Alaçatı 11 Beach</span><span>Fermento</span>
+  </div>
+  <!-- Gerçek müşteri yorumları gelince burayı aç -->
+  <!--
+  <div class="yorumlar">
+    <blockquote class="yorum">
+      <p>[YORUM]</p>
+      <div class="kim"><b>[MEKAN ADI]</b><span>[KİŞİ – GÖREV]</span></div>
+    </blockquote>
+    <blockquote class="yorum">
+      <p>[YORUM]</p>
+      <div class="kim"><b>[MEKAN ADI]</b><span>[KİŞİ – GÖREV]</span></div>
+    </blockquote>
+  </div>
+  -->
+</section>
+
+<section class="on-red" id="iletisim">
+  <div class="contact">
+    <div class="ph"><picture><source srcset="img/dergi.webp" type="image/webp"><img src="img/dergi.jpg" alt="Kafede dergi okuyan biri" loading="lazy"></picture></div>
+    <div class="body">
+      <h2>İletişim</h2>
+      <div class="rows">
+        <div class="row"><span class="k">Telefon</span><span class="right"><span class="v" id="tel"><a href="tel:+905013492957">+90 501 349 29 57</a></span><button class="copy" data-copy="+905013492957">Kopyala</button></span></div>
+        <div class="row"><span class="k">E-posta</span><span class="right"><span class="v"><a href="mailto:turcihanyldrmm@gmail.com">turcihanyldrmm@gmail.com</a></span><button class="copy" data-copy="turcihanyldrmm@gmail.com">Kopyala</button></span></div>
+        <div class="row"><span class="k">Instagram</span><span class="right"><span class="v"><a href="https://www.instagram.com/turcihanyildirim/" target="_blank" rel="noopener noreferrer">@turcihanyildirim</a></span><a class="profil" href="https://www.instagram.com/turcihanyildirim/" target="_blank" rel="noopener noreferrer">Profile git ↗</a></span></div>
+        <div class="row"><span class="k">Referans</span><span class="v">Dazed Creative Agency</span></div>
+      </div>
+
+      <form class="talep" id="talep-form" action="https://formspree.io/f/xabcdwxy" method="POST">
+        <input type="hidden" name="_subject" value="Siteden çekim talebi">
+        <label>İşletme adı
+          <input type="text" name="isletme" required autocomplete="organization" placeholder="Örnek: Liman Restoran">
+        </label>
+        <div class="ikili">
+          <label>Çekim türü
+            <select name="cekim_turu" required>
+              <option value="Menü &amp; tabak">Menü &amp; tabak</option>
+              <option value="Mekan &amp; atmosfer">Mekan &amp; atmosfer</option>
+              <option value="Etkinlik">Etkinlik</option>
+              <option value="Reels / video">Reels / video</option>
+              <option value="Diğeri">Diğeri</option>
+            </select>
+          </label>
+          <label>Yaklaşık tarih
+            <input type="date" name="tarih">
+          </label>
+        </div>
+        <label>Instagram hesabı
+          <input type="text" name="instagram" placeholder="@hesapadi">
+        </label>
+        <label>Mesaj
+          <textarea name="mesaj" placeholder="Kaç tabak, hangi alanlar, nerede kullanılacak?"></textarea>
+        </label>
+        <button class="gonder" type="submit">Talebi gönder</button>
+        <p class="not">Form gönderildiğinde e-posta olarak iletilir. Yanıt genelde aynı gün içinde döner.</p>
+      </form>
+      <div class="talep-sonuc" id="talep-sonuc" role="status" aria-live="polite" hidden></div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div class="thanks">
+    <h2>Teşekkürler</h2>
+    <figure><picture><source srcset="img/sahil.webp" type="image/webp"><img src="img/sahil.jpg" alt="Gün batımında sahilde iki kişinin silueti" loading="lazy"></picture></figure>
+  </div>
+  <div class="foot"><span>© 2026 Turcihan</span><span><a href="https://www.instagram.com/turcihanyildirim/" target="_blank" rel="noopener noreferrer">Instagram</a></span><span>Gastronomi · Mekan · Etkinlik fotoğrafçılığı</span></div>
+</footer>
+
+<a class="wa" href="https://wa.me/905013492957?text=Merhaba%2C%20sitenizden%20ula%C5%9F%C4%B1yorum%2C%20%C3%A7ekim%20i%C3%A7in%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Fotoğraf görüntüleyici">
+  <img id="lb-img" alt="">
+  <video id="lb-video" hidden controls loop muted playsinline></video>
+  <button class="x" id="lb-x">Kapat</button>
+  <button class="prev" id="lb-p" aria-label="Önceki">←</button>
+  <button class="next" id="lb-n" aria-label="Sonraki">→</button>
+  <div class="cap"><span id="lb-c"></span><span class="mekan" id="lb-m"></span></div>
+</div>
+
+<script>
+// Isler listesi. Kategoriyi degistirmek icin satir sonundaki sozcugu duzeltin:
+// gastronomi | mekan | etkinlik | video   (sayilar kendiliginden guncellenir)
+const isler=[
+ ["video/kokteyl-dikey.mp4","Kumsalda, dalga kenarında iki kokteyl","reels","video/kokteyl-dikey-poster.jpg"],
+ ["video/su-dikey.mp4","Gün batarken denizde parlayan ışık","reels","video/su-dikey-poster.jpg"],
+ ["img/dergi.jpg","Kafede elinde dergi posteri tutan kişi","etkinlik"],
+ ["img/dsc00031.jpg","Hasır çatılı mekanda büfe tezgahının arkasındaki ekip","etkinlik"],
+ ["img/dsc00049.jpg","Tabağı son haline getiren şef","menu"],
+ ["img/dsc02380.jpg","Meyveli ve granolalı smoothie kâsesi","menu"],
+ ["img/dsc02424.jpg","Naneli ve limonlu soğuk içecekler","menu"],
+ ["img/dsc02460-1.jpg","Bar tezgahında sıralanmış limonatalar","menu"],
+ ["img/dsc02508.jpg","Kahvaltı tabağında hamur işleri ve donutlar","menu"],
+ ["img/dsc08105.jpg","Böğürtlenle süslenmiş siyah pasta","menu"],
+ ["img/dsc08106.jpg","Böğürtlenli pastanın yakın çekimi","menu"],
+ ["img/dsc09979.jpg","Serviste bütün pişmiş balık","menu"],
+ ["img/dscf0087.jpg","Sahil restoranının masa düzeni","mekan"],
+ ["img/dscf0090.jpg","Ahşap terasta öğle gölgeleri","mekan"],
+ ["img/dscf0133.jpg","Gün batımında sahilde yürüyenler","mekan"],
+ ["img/dscf0134.jpg","Akşam ışığında deniz kıyısı","mekan"],
+ ["img/dscf0141.jpg","Suda gün batımı yansıması","mekan"],
+ ["img/dscf0143.jpg","Deniz üzerinde akşam ışığı","mekan"],
+ ["img/dscf0450.jpg","Bar tezgahında iki bardak","menu"],
+ ["img/dscf1146.jpg","Deniz ürünleri vitrininde ıstakoz","menu"],
+ ["img/dscf1249.jpg","Akşamüstü deniz kenarında saksı silueti","mekan"],
+ ["img/dscf2951-2.jpg","Fırına girmeye hazır hamur işleri","menu"],
+ ["img/dscf2964.jpg","Vişneli kırmızı pasta","menu"],
+ ["img/dscf2966.jpg","Vişneli pastanın sunumu","menu"],
+ ["img/dscf3799.jpg","Deniz manzaralı korkulukta soğuk içecek","menu"],
+ ["img/dscf3803.jpg","Deniz kenarında masada yemek","mekan"],
+ ["img/dscf6052.jpg","Mutfak rafında istiflenmiş çelik kaplar","mekan"],
+ ["img/dscf6666.jpg","Kumun üstünde ahşap yürüyüş yolu","mekan"],
+ ["img/dscf6697.jpg","Kıyıda yürüyen iki kişi","mekan"],
+ ["img/dscf6881.jpg","Sahilde içeceğini fotoğraflayan misafir","etkinlik"],
+ ["img/dscf6892.jpg","Gün batımında iskele ve su","mekan"],
+ ["img/dscf6898.jpg","Akşam servisinde kurulu masalar","mekan"],
+ ["img/dscf6910.jpg","Gün batımında kıyı manzarası","mekan"],
+ ["img/dscf9393.jpg","Mutfak deposunda kap rafları","mekan"],
+ ["img/dscf9815.jpg","Kumun üstünde servis edilen tabak","menu"],
+ ["img/dscf9820.jpg","Plajda tabak ve içecek sunumu","menu"],
+ ["img/dscf9822.jpg","Mavi ahşap masada kâsede yemek","menu"],
+ ["img/dscf9823.jpg","Mavi masada balık tabağı","menu"],
+ ["img/etkinlik.jpg","Etkinlikte marka tişörtü detayı","etkinlik"],
+ ["img/foto.jpg","Take away limonata arabası","menu"],
+ ["img/hakkimda.jpg","Mekan önünde ürün paketleriyle poz","etkinlik"],
+ ["img/hamur-isi.jpg","Tepsiyle taşınan taze hamur işleri","menu"],
+ ["img/icecek-pencere.jpg","Pencereden uzatılan içecekler","menu"],
+ ["img/img-9236.jpg","Vişneli kırmızı kare pasta","menu"],
+ ["img/kameralar.jpg","Masada iki fotoğraf makinesi","etkinlik"],
+ ["img/limonata.jpg","Limonata arabasında soğuk içecekler","menu"],
+ ["img/masa.jpg","Hazırlanmış masa düzeni","mekan"],
+ ["img/mekan-gun-batimi.jpg","Akşam ışığında mekan terası","mekan"],
+ ["img/menu-tabak.jpg","Mavi duvar önünde tatlı sunumu","menu"],
+ ["img/mutfak.jpg","Mutfakta hazırlık yapan ekip","etkinlik"],
+ ["img/patates.jpg","Ketçap şişeleri ve patates kızartması","menu"],
+ ["img/sahil.jpg","Gün batımında sahilde iki kişi","mekan"],
+ ["img/sef.jpg","Mutfakta not alan şef","etkinlik"],
+ ["img/servis.jpg","Serviste deniz ürünleri tabağı","menu"],
+ ["img/tabak-kum.jpg","Kumun üstünde yemek tabağı","menu"]
+];
+// Mekan adlari: buyutulmus fotografin altinda gorunur.
+// Yer tutucuyu degistirmeniz yeterli; bos birakilan [MEKAN] olarak kalir.
+const MEKANLAR={
+ "video/kokteyl-dikey.mp4":"[MEKAN]",
+ "video/su-dikey.mp4":"[MEKAN]",
+ "img/dergi.jpg":"[MEKAN]",
+ "img/dsc00031.jpg":"[MEKAN]",
+ "img/dsc00049.jpg":"[MEKAN]",
+ "img/dsc02380.jpg":"[MEKAN]",
+ "img/dsc02424.jpg":"[MEKAN]",
+ "img/dsc02460-1.jpg":"[MEKAN]",
+ "img/dsc02508.jpg":"[MEKAN]",
+ "img/dsc08105.jpg":"[MEKAN]",
+ "img/dsc08106.jpg":"[MEKAN]",
+ "img/dsc09979.jpg":"[MEKAN]",
+ "img/dscf0087.jpg":"[MEKAN]",
+ "img/dscf0090.jpg":"[MEKAN]",
+ "img/dscf0133.jpg":"[MEKAN]",
+ "img/dscf0134.jpg":"[MEKAN]",
+ "img/dscf0141.jpg":"[MEKAN]",
+ "img/dscf0143.jpg":"[MEKAN]",
+ "img/dscf0450.jpg":"[MEKAN]",
+ "img/dscf1146.jpg":"[MEKAN]",
+ "img/dscf1249.jpg":"[MEKAN]",
+ "img/dscf2951-2.jpg":"[MEKAN]",
+ "img/dscf2964.jpg":"[MEKAN]",
+ "img/dscf2966.jpg":"[MEKAN]",
+ "img/dscf3799.jpg":"[MEKAN]",
+ "img/dscf3803.jpg":"[MEKAN]",
+ "img/dscf6052.jpg":"[MEKAN]",
+ "img/dscf6666.jpg":"[MEKAN]",
+ "img/dscf6697.jpg":"[MEKAN]",
+ "img/dscf6881.jpg":"[MEKAN]",
+ "img/dscf6892.jpg":"[MEKAN]",
+ "img/dscf6898.jpg":"[MEKAN]",
+ "img/dscf6910.jpg":"[MEKAN]",
+ "img/dscf9393.jpg":"[MEKAN]",
+ "img/dscf9815.jpg":"[MEKAN]",
+ "img/dscf9820.jpg":"[MEKAN]",
+ "img/dscf9822.jpg":"[MEKAN]",
+ "img/dscf9823.jpg":"[MEKAN]",
+ "img/etkinlik.jpg":"[MEKAN]",
+ "img/foto.jpg":"[MEKAN]",
+ "img/hakkimda.jpg":"[MEKAN]",
+ "img/hamur-isi.jpg":"[MEKAN]",
+ "img/icecek-pencere.jpg":"[MEKAN]",
+ "img/img-9236.jpg":"[MEKAN]",
+ "img/kameralar.jpg":"[MEKAN]",
+ "img/limonata.jpg":"[MEKAN]",
+ "img/masa.jpg":"[MEKAN]",
+ "img/mekan-gun-batimi.jpg":"[MEKAN]",
+ "img/menu-tabak.jpg":"[MEKAN]",
+ "img/mutfak.jpg":"[MEKAN]",
+ "img/patates.jpg":"[MEKAN]",
+ "img/sahil.jpg":"[MEKAN]",
+ "img/sef.jpg":"[MEKAN]",
+ "img/servis.jpg":"[MEKAN]",
+ "img/tabak-kum.jpg":"[MEKAN]"
+};
+const KATEGORILER=[['tumu','Tümü'],['menu','Menü & Tabak'],['mekan','Mekan & Atmosfer'],['etkinlik','Etkinlik'],['reels','Reels']];
+const olcu={"img/dergi.jpg":[1066,1600],"img/dsc00031.jpg":[1067,1600],"img/dsc00049.jpg":[1067,1600],"img/dsc02380.jpg":[1067,1600],"img/dsc02424.jpg":[1067,1600],"img/dsc02460-1.jpg":[1067,1600],"img/dsc02508.jpg":[1600,1067],"img/dsc08105.jpg":[1067,1600],"img/dsc08106.jpg":[1067,1600],"img/dsc09979.jpg":[1067,1600],"img/dscf0087.jpg":[1067,1600],"img/dscf0090.jpg":[1067,1600],"img/dscf0133.jpg":[1067,1600],"img/dscf0134.jpg":[1067,1600],"img/dscf0141.jpg":[1067,1600],"img/dscf0143.jpg":[1067,1600],"img/dscf0450.jpg":[1600,1067],"img/dscf1146.jpg":[1067,1600],"img/dscf1249.jpg":[1067,1600],"img/dscf2951-2.jpg":[1067,1600],"img/dscf2964.jpg":[1067,1600],"img/dscf2966.jpg":[1067,1600],"img/dscf3799.jpg":[1067,1600],"img/dscf3803.jpg":[1067,1600],"img/dscf6052.jpg":[1067,1600],"img/dscf6666.jpg":[1067,1600],"img/dscf6697.jpg":[1067,1600],"img/dscf6881.jpg":[1067,1600],"img/dscf6892.jpg":[1067,1600],"img/dscf6898.jpg":[1067,1600],"img/dscf6910.jpg":[1067,1600],"img/dscf9393.jpg":[1067,1600],"img/dscf9815.jpg":[1067,1600],"img/dscf9820.jpg":[1067,1600],"img/dscf9822.jpg":[1067,1600],"img/dscf9823.jpg":[1067,1600],"img/etkinlik.jpg":[832,1248],"img/foto.jpg":[1067,1600],"img/hakkimda.jpg":[1170,1462],"img/hamur-isi.jpg":[1067,1600],"img/icecek-pencere.jpg":[1067,1600],"img/img-9236.jpg":[1200,1600],"img/kameralar.jpg":[908,1210],"img/limonata.jpg":[1338,1600],"img/masa.jpg":[1067,1600],"img/mekan-gun-batimi.jpg":[513,768],"img/menu-tabak.jpg":[935,1402],"img/mutfak.jpg":[1402,935],"img/patates.jpg":[1402,935],"img/sahil.jpg":[1066,1600],"img/sef.jpg":[702,878],"img/servis.jpg":[1067,1600],"img/tabak-kum.jpg":[1067,1600],"video/kokteyl-dikey.mp4":[900,1600],"video/su-dikey.mp4":[900,1600]};
+
+const lb=document.getElementById('lb'),li=document.getElementById('lb-img'),
+      lv=document.getElementById('lb-video'),lc=document.getElementById('lb-c'),
+      lm=document.getElementById('lb-m');
+// Tarayici webp destekliyorsa buyutecte de webp gosterilir.
+const webpVar=(()=>{try{return document.createElement('canvas')
+  .toDataURL('image/webp').indexOf('data:image/webp')===0}catch(e){return false}})();
+const gorselYolu=p=>webpVar?p.replace(/\.jpg$/,'.webp'):p;
+let aktifListe=isler,cur=0,last=null;
+
+// Izgara bir kez kurulur; suzgec yalnizca gizleyip gosterir.
+const g=document.getElementById('gallery');
+isler.forEach(o=>{
+  const video=o[2]==='reels';
+  const b=document.createElement('button');b.type='button';b.dataset.kat=o[2];
+  b.setAttribute('aria-label',o[1]+(video?' — videoyu aç':' — büyüt'));
+  const kaynak=video?o[3]:o[0];
+  const pic=document.createElement('picture');
+  const kyn=document.createElement('source');
+  kyn.dataset.srcset=kaynak.replace(/\.jpg$/,'.webp');kyn.type='image/webp';
+  const im=document.createElement('img');
+  // Gorsel adresi, kare ekranda gosterilene kadar atanmaz: gorunmeyenler indirilmez.
+  im.dataset.src=kaynak;im.alt=o[1];im.loading='lazy';im.decoding='async';
+  const ol=olcu[o[0]];if(ol){im.width=ol[0];im.height=ol[1];}
+  pic.appendChild(kyn);pic.appendChild(im);b.appendChild(pic);
+  const f=document.createElement('figcaption');f.textContent=o[1];b.appendChild(f);
+  if(video){const r=document.createElement('span');r.className='rozet';r.textContent='Video';b.appendChild(r);}
+  b.addEventListener('click',()=>ac(aktifListe,aktifListe.indexOf(o)));
+  b.hidden=true;
+  o.dugme=b;
+  g.appendChild(b);
+});
+
+// --- Daha fazla goster -------------------------------------------------
+// Izgara bir kez kurulur; her seferde yalnizca ADIM kadari acilir.
+// Buyutec her zaman o anki filtrenin TAMAMINDA gezinir (aktifListe).
+const ADIM=12;
+const dahaDugme=document.getElementById('daha-fazla');
+let gosterilen=0;
+function kaynakYukle(b){
+  const im=b.querySelector('img'),kyn=b.querySelector('source');
+  if(kyn&&kyn.dataset.srcset){kyn.srcset=kyn.dataset.srcset;delete kyn.dataset.srcset;}
+  if(im.dataset.src){im.src=im.dataset.src;delete im.dataset.src;}
+}
+function dugmeTazele(){
+  const kalan=aktifListe.length-gosterilen;
+  dahaDugme.hidden=kalan<=0;
+  if(kalan>0) dahaDugme.textContent='+ Daha fazla g\u00f6ster ('+kalan+')';
+}
+function dahaGoster(animasyonlu){
+  const son=Math.min(aktifListe.length,gosterilen+ADIM);
+  for(let i=gosterilen;i<son;i++){
+    const b=aktifListe[i].dugme;
+    kaynakYukle(b);
+    b.hidden=false;
+    if(animasyonlu){
+      b.classList.add('beliren');
+      b.addEventListener('animationend',()=>b.classList.remove('beliren'),{once:true});
+    }
+  }
+  gosterilen=son;
+  dugmeTazele();
+}
+function izgaraSifirla(){
+  isler.forEach(o=>{o.dugme.hidden=true});
+  gosterilen=0;
+  dahaGoster(false);
+}
+dahaDugme.addEventListener('click',()=>dahaGoster(true));
+izgaraSifirla();
+
+// Suzgec haplari; sayilar listeden hesaplanir.
+const sg=document.getElementById('suzgec');
+KATEGORILER.forEach(([kod,ad],i)=>{
+  const adet=kod==='tumu'?isler.length:isler.filter(o=>o[2]===kod).length;
+  const b=document.createElement('button');b.type='button';b.className='suz'+(i===0?' secili':'');
+  b.dataset.kat=kod;b.setAttribute('aria-pressed',i===0?'true':'false');
+  b.textContent=ad;
+  const n=document.createElement('span');n.className='adet';n.textContent=adet;b.appendChild(n);
+  b.addEventListener('click',()=>suz(kod));
+  sg.appendChild(b);
+});
+
+function suz(kod){
+  const bolum=document.getElementById('isler');
+  const oncekiUst=bolum.getBoundingClientRect().top;
+  g.classList.add('gecis');
+  setTimeout(()=>{
+    aktifListe=isler.filter(o=>kod==='tumu'||o[2]===kod);
+    izgaraSifirla();   // filtre degisince sayac basa doner
+    sg.querySelectorAll('.suz').forEach(b=>{
+      const secili=b.dataset.kat===kod;
+      b.classList.toggle('secili',secili);
+      b.setAttribute('aria-pressed',secili?'true':'false');
+    });
+    // Sayfa ziplamasin: bolumun ekrandaki yeri sabit kalsin.
+    const fark=bolum.getBoundingClientRect().top-oncekiUst;
+    if(fark) scrollBy({top:fark,left:0,behavior:'auto'});
+    g.classList.remove('gecis');
+  },250);
+}
+
+// Izgara JS ile kuruldugu icin, adresinde #bolum olan bir baglantiyla gelindiginde
+// tarayicinin ilk kaydirmasi eksik kaliyor; icerik yerlestikten sonra duzeltiliyor.
+if(location.hash){
+  const hedef=document.querySelector(location.hash);
+  if(hedef) requestAnimationFrame(()=>hedef.scrollIntoView({behavior:'auto'}));
+}
+function show(i){
+  cur=(i+aktifListe.length)%aktifListe.length;
+  const o=aktifListe[cur],video=o[2]==='reels';
+  li.hidden=video;lv.hidden=!video;
+  if(video){lv.src=o[0];lv.play().catch(()=>{});}
+  else{lv.pause();lv.removeAttribute('src');lv.load();li.src=gorselYolu(o[0]);li.alt=o[1];}
+  lc.textContent=`${o[1]} · ${cur+1}/${aktifListe.length}`;
+  lm.textContent=MEKANLAR[o[0]]||'[MEKAN]';
+}
+function ac(liste,i){aktifListe=liste;last=document.activeElement;show(i);lb.hidden=false;document.getElementById('lb-x').focus()}
+function kapat(){lv.pause();lb.hidden=true;last&&last.focus()}
+document.getElementById('lb-x').onclick=kapat;
+document.getElementById('lb-p').onclick=()=>show(cur-1);
+document.getElementById('lb-n').onclick=()=>show(cur+1);
+lb.addEventListener('click',e=>{if(e.target===lb)kapat()});
+document.addEventListener('keydown',e=>{if(lb.hidden)return;if(e.key==='Escape')kapat();if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+let sx=null;lb.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});
+lb.addEventListener('touchend',e=>{if(sx==null)return;const d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>50)show(cur+(d<0?1:-1));sx=null});
+document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>{
+  const t=b.dataset.copy,done=()=>{b.textContent='Kopyalandı';setTimeout(()=>b.textContent='Kopyala',1600)};
+  if(navigator.clipboard)navigator.clipboard.writeText(t).then(done).catch(()=>sel(b));else sel(b);
+}));
+function sel(b){const v=b.parentElement.querySelector('.v');const r=document.createRange();r.selectNodeContents(v);const s=getSelection();s.removeAllRanges();s.addRange(r)}
+
+// Videolar: gorunur olunca yuklenir; hareket azaltma tercihi varsa kendiliginden oynamaz.
+const azHareket = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const gorunur = v => {
+  const r = v.getBoundingClientRect();
+  return r.bottom > -250 && r.top < innerHeight + 250;
+};
+const gozcu = new IntersectionObserver(gs => gs.forEach(g => {
+  const v = g.target;
+  if (gorunur(v)) {
+    if (!v.src) v.src = v.dataset.src;
+    if (!azHareket && !v.dataset.elle) v.play().catch(()=>{});
+  } else if (!v.paused) v.pause();
+}), {rootMargin:'250px'});
+document.querySelectorAll('video.vid').forEach(v => gozcu.observe(v));
+document.querySelectorAll('.vbtn').forEach(b => {
+  const v = document.getElementById(b.dataset.for);
+  if (azHareket) b.textContent = 'Oynat';
+  b.addEventListener('click', () => {
+    if (v.paused) { delete v.dataset.elle; if (!v.src) v.src = v.dataset.src; v.play().catch(()=>{}); }
+    else { v.dataset.elle = '1'; v.pause(); }
+  });
+  v.addEventListener('play',  () => b.textContent = 'Durdur');
+  v.addEventListener('pause', () => b.textContent = 'Oynat');
+});
+// Yapiskan menunun yuksekligi degisebiliyor (telefonda baglantilar alt satira gecebilir).
+// Bolum baglantilari basligi menunun altinda birakmasin diye olculup CSS'e veriliyor.
+const menu = document.querySelector('header.top');
+const menuOlc = () => document.documentElement.style.setProperty('--bas', menu.offsetHeight + 'px');
+menuOlc();
+addEventListener('resize', menuOlc);
+if (window.ResizeObserver) new ResizeObserver(menuOlc).observe(menu);
+// Talep formu sayfadan ayrilmadan gonderilir (Formspree JSON yaniti).
+const talepForm=document.getElementById('talep-form');
+const talepSonuc=document.getElementById('talep-sonuc');
+if(talepForm&&talepSonuc){
+  const waAdres=(document.querySelector('.wa')||{}).href||'https://wa.me/905013492957';
+  talepForm.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const dugme=talepForm.querySelector('.gonder');
+    const eskiYazi=dugme.textContent;
+    dugme.disabled=true;dugme.textContent='G\u00f6nderiliyor';
+    talepSonuc.hidden=true;
+    try{
+      const yanit=await fetch(talepForm.action,{
+        method:'POST',body:new FormData(talepForm),headers:{'Accept':'application/json'}
+      });
+      if(!yanit.ok) throw new Error('HTTP '+yanit.status);
+      talepForm.hidden=true;
+      talepSonuc.className='talep-sonuc olumlu';
+      talepSonuc.textContent='Talebiniz al\u0131nd\u0131, en k\u0131sa s\u00fcrede d\u00f6n\u00fc\u015f yapaca\u011f\u0131m.';
+      talepSonuc.hidden=false;
+    }catch(hata){
+      talepSonuc.className='talep-sonuc olumsuz';
+      talepSonuc.textContent='';
+      const p=document.createElement('p');
+      p.textContent="G\u00f6nderilemedi, l\u00fctfen WhatsApp'tan yaz\u0131n";
+      const a=document.createElement('a');
+      a.className='wa-ic';a.href=waAdres;a.target='_blank';a.rel='noopener noreferrer';
+      a.textContent="WhatsApp'tan yaz";
+      talepSonuc.appendChild(p);talepSonuc.appendChild(a);
+      talepSonuc.hidden=false;
+      dugme.disabled=false;dugme.textContent=eskiYazi;
+    }
+  });
+}
+// Adresi henuz belli olmayan mekanlar. Tirnaklarin arasina adresi yazin,
+// o isim sayfada kendiliginden baglantiya donusur (yeni sekmede acilir).
+const MEKAN_ADRESLERI={
+ "Suimaki":"",
+ "Ala\u00e7at\u0131 11 Beach":"",
+ "Fermento":""
+};
+document.querySelectorAll('.mekan-serit span').forEach(x=>{
+  if(x.querySelector('a')) return;
+  const adres=MEKAN_ADRESLERI[x.textContent.trim()];
+  if(!adres) return;
+  const a=document.createElement('a');
+  a.href=adres;a.target='_blank';a.rel='noopener noreferrer';a.textContent=x.textContent.trim();
+  x.textContent='';x.appendChild(a);
+});
+</script>

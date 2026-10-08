@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "turcihan",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["-m", "http.server", "8750", "--directory", "site"],
+      "port": 8750
+    }
+  ]
+}

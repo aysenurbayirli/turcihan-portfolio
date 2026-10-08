@@ -1,0 +1,23 @@
+# Netlify ayarları. Derleme adımı yok: site düz HTML/CSS/JS.
+# Netlify depoyu bağladığınızda bu dosyayı görüp alanları kendisi doldurur.
+
+[build]
+  publish = "site"
+  command = ""
+
+# Görseller ve videolar adıyla sabit olduğu için uzun süre önbelleğe alınabilir.
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/video/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+# index.html her zaman taze gelsin ki güncelleme hemen görünsün.
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

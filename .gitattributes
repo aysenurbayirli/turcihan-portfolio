@@ -1,0 +1,10 @@
+# Metin dosyaları depoda LF ile dursun (Windows/macOS farkı commit'e yansımasın)
+* text=auto eol=lf
+
+# İkili dosyalar dönüştürülmesin
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.ico binary
+*.mp4 binary
